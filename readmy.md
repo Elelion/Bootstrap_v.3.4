@@ -7,7 +7,7 @@
 
 Project content:
 -------------------
-`step-1:` Basics and installation <br>
+`step-1:` ~~Basics and installation~~ <br>
 `step-2:` Layout using grids <br>
 `step-3:` Grid system and adaptive menu <br>
 `step-4:` Styles for text <br>
