@@ -25,19 +25,30 @@
   <!-- NOTE: bootstrap will already automatically change fonts to more pleasant ones -->
 </head>
 <body>
-  Test
-  <h1>Test</h1>
+  <div class="container-fluid" style="border: 2px solid green">
+    <h1>3th different blocks </h1>
+    <div class="row" style="border: 2px solid red; padding: 4px">
 
-  <div class="container">
-    <h1>Hello you are this site</h1>
+      <!-- NOTE: we want to create 3 columns. Hence 12 / 3 = 4 -->
+      <div class="col-md-4" style="background-color: #ff9999">left</div>
+      <div class="col-md-4" style="background-color: #99CCFF">center</div>
+      <div class="col-md-4" style="background-color: #00CC99">right</div>
+    </div>
   </div>
 </body>
 </html>
 
 <!--
 NOTES:
-︎▸ what mean is container - a normal div block
+︎▸ Each page has 12 columns
 
-︎▸ container - basic container
-︎▸ container-fluid - make container is responsive
+▸ row - creating row
+▸ col - creating column
+
+▸ xs - extra small (for mobile)
+▸ sm - small (for tablet)
+▸ md - middle (laptop & notebooks)
+▸ lg - large (for desktop)
+
+▸ container-fluid - make container is responsive without padding
 -->
