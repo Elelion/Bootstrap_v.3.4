@@ -26,46 +26,54 @@
 </head>
 
 <body>
-  <nav class="navbar navbar-default">
-    <div class="container-fluid">
-      <div class="navbar-header">
-        <a href="" class="navbar-brand">LEARN-BOOTSTRAP</a>
-      </div>
+  <!-- NOTE: font colors -->
+  <p class="text-muted">something</p>
+  <p class="text-primary">anybody</p>
+  <p class="text-success">there are</p>
+  <p class="text-info">it is</p>
+  <p class="text-warning">you are nt prepared</p>
+  <p class="text-danger">bye man</p>
 
-      <!-- NOTE: menu of the site -->
-      <ul class="nav navbar-nav">
-        <li class="active"><a href="#">main</a></li>
-        <li ><a href="#">about</a></li>
-        <li ><a href="#">feedback</a></li>
-      </ul>
-    </div>
-  </nav>
+  <p class="bg-primary">anybody</p>
+  <p class="bg-success">there are</p>
+  <p class="bg-info">it is</p>
+  <p class="bg-warning">you are nt prepared</p>
+  <p class="bg-danger">bye man</p>
 
+  <!-- NOTE: text size -->
+  <h1>title_h1 <small>small text</small></h1>
+  <h3>title_h3 <small>small text</small></h3>
+  <h5>title_h5 <small>small text</small></h5>
+  <p>test <mark>mark example</mark> test </p>
 
+  <!-- NOTE: text align -->
+  <p class="text-left">left align</p>
+  <p class="text-center">center</p>
+  <p class="text-right">right</p>
+  <p class="text-justify">justify</p>
+  <p class="text-nowrap"> text without wrap</p>
 
-  <hr>
+  <blockquote cite="" class="blockquote-reverse">
+    some very clever quote
 
-  <div class="container-fluid" style="border: 2px solid green">
-    <h1>3th different blocks </h1>
-    <div class="row" style="border: 2px solid red; padding: 4px">
-      <div class="col-xs-12 col-sm-9 col-md-4 col-lg-6" style="background-color: #00CCFF">first</div>
-      <div class="col-xs-12 col-sm-3 col-md-8 col-lg-6" style="background-color: #CC00FF">second</div>
-      <br>
-      <br>
-      <div class="col-lg-5 col-lg-push-7" style="background-color: #00CCFF">first</div>
-      <div class="col-lg-7 col-lg-pull-5" style="background-color: #CC00FF">second</div>
-      <br>
-      <br>
-      <div class="row">
-        <div class="col-lg-5 col-lg-push-7">
-          <div class="row">
-            <div class="col-lg-6" style="background-color: #00CCFF">first</div>
-            <div class="col-lg-6" style="background-color: #CC00FF">second</div>
-          </div>
-        </div>
-        <div class="col-lg-7 col-lg-pull-5" style="background-color: #CC00FF">second</div>
-      </div>
-    </div>
+    <footer>
+      S.Jobs(c).
+    </footer>
+  </blockquote>
+
+  <p class="text-uppercase">Text Uppercase</p>
+  <p class="text-lowercase">Text Lowercase</p>
+  <p class="text-capitalize">Text Capitalize</p>
+
+  <code>for</code>,<code>if</code>,<code>do while</code>
+  <br>
+  <br>
+  <div class="container">
+    <pre>
+      for (int i = 0; i < 10; i++) {
+        print('Hi');
+      }
+    </pre>
   </div>
 </body>
 </html>
@@ -73,28 +81,8 @@
 <!--
 NOTES:
 
-▸ navbar - for menu bar
-▸ navbar-default - default menu bar
-▸ navbar-header - logo of the site
-▸ navbar-brand - for beauty logo of the site (text)
+▸ small - reduces text for 85% of basic font size
+▸ mark - selects information from the rest of the text
+▸ blockquote-reverse - displays the quote on the other side
 
-/**/
-
-▸ nav navbar-nav - navigation for site menu
-▸ active - active component (selected)
-
-/**/
-
-︎▸ col-xs-12 col-sm-9 col-md-4 col-lg-6 - this block have a 12 classes, where:
-  col-xs-12 - for mobile
-  col-sm-9 - for  tablet
-  col-md-4 - for notebook
-  col-lg-6 - for desktop
-Depending on the screen, the appropriate block class will be automatically applied
-
-/**/
-
-︎▸  col-lg-5 col-lg-push-7
-&& col-lg-7 col-lg-pull-5
-Swaps the blocks
 -->
