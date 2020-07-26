@@ -12,7 +12,7 @@ Project content:
 `step-3:` ~~Grid system and adaptive menu~~ <br>
 `step-4:` ~~Styles for text~~ <br>
 `step-5:` ~~Working with tables~~ <br>
-`step-6:` Buttons and groups of buttons <br>
+`step-6:` ~~Buttons and groups of buttons~~ <br>
 `step-7:` Creating forms <br>
 `step-8:` Icon font and images <br>
 `step-9:` Text panels <br>
