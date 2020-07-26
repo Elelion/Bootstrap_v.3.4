@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>BootStrap_v.3.4</title>
+
+  <!-- NOTE: for mobile content -->
+  <meta name="viewport" content="width=device-width initial-scale=1">
+
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+        integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu"
+        crossorigin="anonymous">
+
+  <!-- Optional theme -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap-theme.min.css"
+        integrity="sha384-6pzBo3FDv/PJ8r2KRkGHifhEocL+1X2rVCTTkUfGk7/0pbek5mMa1upzvWbrUbOZ"
+        crossorigin="anonymous">
+
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"
+          integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd"
+          crossorigin="anonymous"></script>
+
+  <!-- NOTE: bootstrap will already automatically change fonts to more pleasant ones -->
+</head>
+
+<style>
+  body {
+    padding: 30px;
+  }
+</style>
+
+<body>
+
+  <div class="container">
+    <form action="" role="form" class="form-horizontal">
+      <div class="form-group">
+        <label for="email" class="control-label col-md-2">Email</label>
+
+        <div class="col-md-10">
+          <input type="email" class="form-control" id="email" placeholder="entering your email">
+<!--        <p class="help-block">hint</p>-->
+        </div>
+      </div>
+
+      <select class="form-control">
+        <option>1</option>
+        <option>2</option>
+        <option>3</option>
+      </select>
+      <div class="radio-inline">
+        <label>
+          <input type="radio" name="optionsRadio" id="radio1" value="option1" checked>
+          first element
+        </label>
+      </div>
+      <div class="radio-inline">
+        <label>
+          <input type="radio" name="optionsRadio" id="radio2" value="option2" disabled="disabled">
+          second element
+        </label>
+      </div>
+
+      <div class="form-group">
+        <label for="password" class="control-label col-md-2">password</label>
+
+        <div class="col-md-10">
+          <input type="password" class="form-control" id="password" placeholder="entering your email">
+<!--        <p class="help-block">hint</p>-->
+        </div>
+      </div>
+
+      <div class="checkbox">
+        <label for="check">
+          <input type="checkbox" id="check">checkbox
+        </label>
+      </div>
+      <button type="button" class="btn btn-success">registry</button>
+    </form>
+  </div>
+
+</body>
+</html>
+
+<!--
+NOTES:
+
+▸ form-control - beautiful styles for any field
+▸ help-block - hint
+▸ <form action="" role="form" class="form-inline "> - inline - to get everything lined up horizontally
+
+-->
