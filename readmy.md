@@ -16,7 +16,7 @@ Project content:
 `step-7:` ~~Creating forms~~ <br>
 `step-8:` ~~Icon font and images~~ <br>
 `step-9:` ~~Text panels~~ <br>
-`step-10:` Drop-down menus and lists <br>
+`step-10:` ~~Drop-down menus and lists~~ <br>
 `step-11:` JS Collapse <br>
 `step-12:` Modal Windows <br>
 `step-13:` Creating tabs <br>
