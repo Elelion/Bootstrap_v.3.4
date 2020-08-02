@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>BootStrap_v.3.4</title>
+
+  <!-- NOTE: for mobile content -->
+  <meta name="viewport" content="width=device-width initial-scale=1">
+
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+        integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu"
+        crossorigin="anonymous">
+
+  <!-- Optional theme -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap-theme.min.css"
+        integrity="sha384-6pzBo3FDv/PJ8r2KRkGHifhEocL+1X2rVCTTkUfGk7/0pbek5mMa1upzvWbrUbOZ"
+        crossorigin="anonymous">
+
+  <!-- NOTE: bootstrap will already automatically change fonts to more pleasant ones -->
+</head>
+
+<style>
+  body {
+    padding: 30px;
+  }
+</style>
+
+<body>
+  <nav class="navbar-default" role="navigation">
+    <div class="container-fluid">
+      <div class="navbar-header">
+         <dutton type="button"
+                 class="navbar-toggle"
+                 data-toggle="collapse"
+                 data-target="#bs-example-navbar-collapse-1">
+           <span class="sr-only">Navigation</span>
+           <span class="icon-bar"></span>
+           <span class="icon-bar"></span>
+           <span class="icon-bar"></span>
+         </dutton>
+        <a href="#" class="navbar-brand">LOGO</a>
+      </div>
+
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="#">link</a></li>
+          <li><a href="#">link</a></li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+              dropdown <b class="caret"></b>
+            </a>
+
+            <ul class="dropdown-menu">
+              <li><a href="#">action</a></li>
+              <li><a href="#">action second</a></li>
+              <li><a href="#">action third</a></li>
+              <li><a href="#">action fourth</a></li>
+              <li class="divider"></li>
+              <li><a href="#">some one</a></li>
+            </ul>
+          </li>
+        </ul>
+
+        <form action="" class="navbar-form navbar-left" role="search">
+          <div class="form-group">
+            <input type="text" class="form-control" placeholder="search">
+          </div>
+          <button class="btn btn-default">go</button>
+        </form>
+
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#">link</a></li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+              dropdown <b class="caret"></b>
+            </a>
+
+            <ul class="dropdown-menu">
+              <li><a href="#">action_1</a></li>
+              <li><a href="#">action_2</a></li>
+              <li><a href="#">action_3</a></li>
+              <li class="divider"></li>
+              <li><a href="#">action_4</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <br>
+  <br>
+
+  <div class="dropdown">
+    <button class="btn btn-info dropdown-toggle"
+            data-toggle="dropdown">List <span class="caret"></span></button>
+    <ul class="dropdown-menu">
+      <li class="dropdown-header">title - 1</li>
+      <li><a href="#">HTML</a></li>
+      <li><a href="#">PUG</a></li>
+      <li class="disabled"><a href="#">CSS</a></li>
+      <li><a href="#">SASS</a></li>
+      <li><a href="#">LESS</a></li>
+      <li class="divider"></li>
+      <li class="dropdown-header">title - 2</li>
+      <li><a href="#">JQ</a></li>
+    </ul>
+  </div>
+
+  <br>
+  <br>
+
+  <div class="dropup">
+    <button class="btn btn-info dropdown-toggle"
+            data-toggle="dropdown">List <span class="caret"></span></button>
+    <ul class="dropdown-menu">
+      <li class="dropdown-header">title - 1</li>
+      <li><a href="#">HTML</a></li>
+      <li><a href="#">PUG</a></li>
+    </ul>
+  </div>
+
+  <!-- ** -->
+
+  <!-- NOTE: include JQ before bootstrap.min.js , including JQ CDN -->
+  <script src="http://code.jquery.com/jquery-3.5.1.js"
+          integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+          crossorigin="anonymous"></script>
+
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"
+          integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd"
+          crossorigin="anonymous"></script>
+</body>
+</html>
+
+<!--
+NOTES:
+
+▸ caret - arrow down
+▸ dropdown - for the list to be drop down it must be in the dropdown class
+▸ dropdown-toggle + data-toggle="dropdown" + dropdown-menu - required class
+for the drop-down list
+▸ data-toggle="collapse" - opens what is in data-target
+▸ form-group - separator for the mobile menu
+
+-->
