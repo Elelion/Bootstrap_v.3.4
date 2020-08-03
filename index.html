@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>BootStrap_v.3.4</title>
+
+  <!-- NOTE: for mobile content -->
+  <meta name="viewport" content="width=device-width initial-scale=1">
+
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+        integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu"
+        crossorigin="anonymous">
+
+  <!-- Optional theme -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap-theme.min.css"
+        integrity="sha384-6pzBo3FDv/PJ8r2KRkGHifhEocL+1X2rVCTTkUfGk7/0pbek5mMa1upzvWbrUbOZ"
+        crossorigin="anonymous">
+
+  <!-- NOTE: bootstrap will already automatically change fonts to more pleasant ones -->
+</head>
+
+<style>
+  body {
+    padding: 30px;
+  }
+</style>
+
+<body>
+
+  <br>
+  <div class="container">
+    <a href="#" data-toggle="tooltip" title="this a tooltip">Hovering the cursor</a>
+
+    <button data-toggle="tooltip"
+            title="button tooltip"
+            data-placement="bottom"
+            class="btn btn-success">Hovering the cursor</button>
+
+    <button data-toggle="tooltip"
+            title="button tooltip"
+            data-placement="right"
+            class="btn btn-success">Hovering the cursor</button>
+  </div>
+
+  <!-- ** -->
+
+  <!-- NOTE: include JQ before bootstrap.min.js , including JQ CDN -->
+  <script src="http://code.jquery.com/jquery-3.5.1.js"
+          integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+          crossorigin="anonymous"></script>
+
+  <!-- NOTE: Latest compiled and minified JavaScript -->
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"
+          integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd"
+          crossorigin="anonymous"></script>
+
+  <!-- NOTE: for tooltip's -->
+  <script>
+    $(document).ready(function () {
+      $('[data-toggle="tooltip"]').tooltip ();
+    })
+  </script>
+</body>
+</html>
+
+<!--
+NOTES:
+
+▸ tab-content - a hidden block that only appears on a specific tab
+▸ tab-pane - for tabs
+▸ nav-pills / pill - for button tabs
+▸ fade - for smooth display
+▸ in - for the initial display
+
+-->
