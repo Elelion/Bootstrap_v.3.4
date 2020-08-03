@@ -27,39 +27,20 @@
 </style>
 
 <body>
-  <div class="container">
-    <ul class="nav nav-tabs" role="tablist">
-      <li><a href="#home" role="tab" data-toggle="tab">Home</a></li>
-      <li><a href="#profile" role="tab" data-toggle="tab">Profile</a></li>
-      <li class="active"><a href="#msg" role="tab" data-toggle="tab">Message</a></li>
-      <li><a href="#settings" role="tab" data-toggle="tab">Settings</a></li>
-    </ul>
-
-    <div class="tab-content">
-      <div class="tab-pane" id="home" role="tabpanel">Home</div>
-      <div class="tab-pane" id="profile" role="tabpanel">Profile</div>
-      <div class="tab-pane active" id="msg" role="tabpanel">MSG</div>
-      <div class="tab-pane" id="settings" role="tabpanel">Setting</div>
-    </div>
-  </div>
 
   <br>
-  <br>
-
   <div class="container">
-    <ul class="nav nav-pills" role="tablist">
-      <li><a href="#page1" role="tab" data-toggle="pill">Home</a></li>
-      <li><a href="#page2" role="tab" data-toggle="pill">Profile</a></li>
-      <li class="active"><a href="#page3" role="tab" data-toggle="pill">Message</a></li>
-      <li><a href="#page4" role="tab" data-toggle="pill">Settings</a></li>
-    </ul>
+    <a href="#" data-toggle="tooltip" title="this a tooltip">Hovering the cursor</a>
 
-    <div class="tab-content">
-      <div class="tab-pane fade" id="page1" role="tabpanel">Home</div>
-      <div class="tab-pane fade" id="page2" role="tabpanel">Profile</div>
-      <div class="tab-pane active fade in" id="page3" role="tabpanel">MSG</div>
-      <div class="tab-pane fade" id="page4" role="tabpanel">Setting</div>
-    </div>
+    <button data-toggle="tooltip"
+            title="button tooltip"
+            data-placement="bottom"
+            class="btn btn-success">Hovering the cursor</button>
+
+    <button data-toggle="tooltip"
+            title="button tooltip"
+            data-placement="right"
+            class="btn btn-success">Hovering the cursor</button>
   </div>
 
   <!-- ** -->
@@ -69,10 +50,17 @@
           integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
           crossorigin="anonymous"></script>
 
-  <!-- Latest compiled and minified JavaScript -->
+  <!-- NOTE: Latest compiled and minified JavaScript -->
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"
           integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd"
           crossorigin="anonymous"></script>
+
+  <!-- NOTE: for tooltip's -->
+  <script>
+    $(document).ready(function () {
+      $('[data-toggle="tooltip"]').tooltip ();
+    })
+  </script>
 </body>
 </html>
 
