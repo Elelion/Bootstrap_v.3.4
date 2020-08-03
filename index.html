@@ -27,98 +27,39 @@
 </style>
 
 <body>
-  <nav class="navbar-default" role="navigation">
-    <div class="container-fluid">
-      <div class="navbar-header">
-         <dutton type="button"
-                 class="navbar-toggle"
-                 data-toggle="collapse"
-                 data-target="#bs-example-navbar-collapse-1">
-           <span class="sr-only">Navigation</span>
-           <span class="icon-bar"></span>
-           <span class="icon-bar"></span>
-           <span class="icon-bar"></span>
-         </dutton>
-        <a href="#" class="navbar-brand">LOGO</a>
-      </div>
-
-      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-        <ul class="nav navbar-nav">
-          <li class="active"><a href="#">link</a></li>
-          <li><a href="#">link</a></li>
-          <li class="dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-              dropdown <b class="caret"></b>
-            </a>
-
-            <ul class="dropdown-menu">
-              <li><a href="#">action</a></li>
-              <li><a href="#">action second</a></li>
-              <li><a href="#">action third</a></li>
-              <li><a href="#">action fourth</a></li>
-              <li class="divider"></li>
-              <li><a href="#">some one</a></li>
-            </ul>
-          </li>
-        </ul>
-
-        <form action="" class="navbar-form navbar-left" role="search">
-          <div class="form-group">
-            <input type="text" class="form-control" placeholder="search">
-          </div>
-          <button class="btn btn-default">go</button>
-        </form>
-
-        <ul class="nav navbar-nav navbar-right">
-          <li><a href="#">link</a></li>
-          <li class="dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-              dropdown <b class="caret"></b>
-            </a>
-
-            <ul class="dropdown-menu">
-              <li><a href="#">action_1</a></li>
-              <li><a href="#">action_2</a></li>
-              <li><a href="#">action_3</a></li>
-              <li class="divider"></li>
-              <li><a href="#">action_4</a></li>
-            </ul>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-
-  <br>
-  <br>
-
-  <div class="dropdown">
-    <button class="btn btn-info dropdown-toggle"
-            data-toggle="dropdown">List <span class="caret"></span></button>
-    <ul class="dropdown-menu">
-      <li class="dropdown-header">title - 1</li>
-      <li><a href="#">HTML</a></li>
-      <li><a href="#">PUG</a></li>
-      <li class="disabled"><a href="#">CSS</a></li>
-      <li><a href="#">SASS</a></li>
-      <li><a href="#">LESS</a></li>
-      <li class="divider"></li>
-      <li class="dropdown-header">title - 2</li>
-      <li><a href="#">JQ</a></li>
+  <div class="container">
+    <ul class="nav nav-tabs" role="tablist">
+      <li><a href="#home" role="tab" data-toggle="tab">Home</a></li>
+      <li><a href="#profile" role="tab" data-toggle="tab">Profile</a></li>
+      <li class="active"><a href="#msg" role="tab" data-toggle="tab">Message</a></li>
+      <li><a href="#settings" role="tab" data-toggle="tab">Settings</a></li>
     </ul>
+
+    <div class="tab-content">
+      <div class="tab-pane" id="home" role="tabpanel">Home</div>
+      <div class="tab-pane" id="profile" role="tabpanel">Profile</div>
+      <div class="tab-pane active" id="msg" role="tabpanel">MSG</div>
+      <div class="tab-pane" id="settings" role="tabpanel">Setting</div>
+    </div>
   </div>
 
   <br>
   <br>
 
-  <div class="dropup">
-    <button class="btn btn-info dropdown-toggle"
-            data-toggle="dropdown">List <span class="caret"></span></button>
-    <ul class="dropdown-menu">
-      <li class="dropdown-header">title - 1</li>
-      <li><a href="#">HTML</a></li>
-      <li><a href="#">PUG</a></li>
+  <div class="container">
+    <ul class="nav nav-pills" role="tablist">
+      <li><a href="#page1" role="tab" data-toggle="pill">Home</a></li>
+      <li><a href="#page2" role="tab" data-toggle="pill">Profile</a></li>
+      <li class="active"><a href="#page3" role="tab" data-toggle="pill">Message</a></li>
+      <li><a href="#page4" role="tab" data-toggle="pill">Settings</a></li>
     </ul>
+
+    <div class="tab-content">
+      <div class="tab-pane fade" id="page1" role="tabpanel">Home</div>
+      <div class="tab-pane fade" id="page2" role="tabpanel">Profile</div>
+      <div class="tab-pane active fade in" id="page3" role="tabpanel">MSG</div>
+      <div class="tab-pane fade" id="page4" role="tabpanel">Setting</div>
+    </div>
   </div>
 
   <!-- ** -->
@@ -138,11 +79,10 @@
 <!--
 NOTES:
 
-▸ caret - arrow down
-▸ dropdown - for the list to be drop down it must be in the dropdown class
-▸ dropdown-toggle + data-toggle="dropdown" + dropdown-menu - required class
-for the drop-down list
-▸ data-toggle="collapse" - opens what is in data-target
-▸ form-group - separator for the mobile menu
+▸ tab-content - a hidden block that only appears on a specific tab
+▸ tab-pane - for tabs
+▸ nav-pills / pill - for button tabs
+▸ fade - for smooth display
+▸ in - for the initial display
 
 -->

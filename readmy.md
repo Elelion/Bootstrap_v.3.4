@@ -17,9 +17,9 @@ Project content:
 `step-8:` ~~Icon font and images~~ <br>
 `step-9:` ~~Text panels~~ <br>
 `step-10:` ~~Drop-down menus and lists~~ <br>
-`step-11:` JS Collapse <br>
-`step-12:` Modal Windows <br>
-`step-13:` Creating tabs <br>
+`step-11:` ~~JS Collapse~~ <br>
+`step-12:` ~~Modal Windows~~ <br>
+`step-13:` ~~Creating tabs~~ <br>
 `step-14:` Tooltip <br>
 `step-15:` Creating a website on Bootstrap <br>
 `step-16:` Final part <br>
