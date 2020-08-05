@@ -20,27 +20,85 @@
   <!-- NOTE: bootstrap will already automatically change fonts to more pleasant ones -->
 </head>
 
-<style>
-  body {
-    padding: 30px;
-  }
-</style>
-
 <body>
 
-  <br>
+  <div class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a href="#" class="navbar-brand">Project name</a>
+      </div>
+
+      <div class="navbar-collapse collapse">
+        <form class="navbar-form navbar-right" action="index.html" method="post">
+          <div class="form-group">
+            <input type="text" placeholder="email" class="form-control">
+          </div>
+
+          <div class="form-group">
+            <input type="password" placeholder="password" class="form-control">
+          </div>
+
+          <button class="btn btn-success" type="submit">Enter</button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <div class="jumbotron">
+    <div class="container">
+      <h1>hello world</h1>
+       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+         Alias aperiam consequuntur cupiditate doloremque, dolores dolorum
+         esse, ex facere harum iusto natus necessitatibus nemo nobis officiis
+         quis ratione sed veritatis voluptatem.</p>
+
+       <a href="" class="btn btn-primary btn-lg">Learn more &raquo;</a>
+    </div>
+  </div>
+
   <div class="container">
-    <a href="#" data-toggle="tooltip" title="this a tooltip">Hovering the cursor</a>
+    <div class="row">
+      <div class="col-md-4">
+        <h2>Title 1</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+          Cum dolorem doloremque illum incidunt inventore, laborum molestiae
+          nemo officia perspiciatis ut? Hic itaque magnam modi obcaecati
+          officia reiciendis repellendus repudiandae suscipit?</p>
 
-    <button data-toggle="tooltip"
-            title="button tooltip"
-            data-placement="bottom"
-            class="btn btn-success">Hovering the cursor</button>
+        <a href="" class="btn btn-default">Learn more &raquo;</a>
+      </div>
 
-    <button data-toggle="tooltip"
-            title="button tooltip"
-            data-placement="right"
-            class="btn btn-success">Hovering the cursor</button>
+      <div class="col-md-4">
+        <h2>Title 2</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+          Cum dolorem doloremque illum incidunt inventore, laborum molestiae
+          nemo officia perspiciatis ut? Hic itaque magnam modi obcaecati
+          officia reiciendis repellendus repudiandae suscipit?</p>
+
+        <a href="" class="btn btn-default">Learn more &raquo;</a>
+      </div>
+
+      <div class="col-md-4">
+        <h2>Title 3</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+          Cum dolorem doloremque illum incidunt inventore, laborum molestiae
+          nemo officia perspiciatis ut? Hic itaque magnam modi obcaecati
+          officia reiciendis repellendus repudiandae suscipit?</p>
+
+        <a href="" class="btn btn-default">Learn more &raquo;</a>
+      </div>
+    </div>
+
+    <hr>
+
+    <footer>
+      <p>&copy; All right reserved</p>
+    </footer>
   </div>
 
   <!-- ** -->
@@ -54,23 +112,15 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"
           integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd"
           crossorigin="anonymous"></script>
-
-  <!-- NOTE: for tooltip's -->
-  <script>
-    $(document).ready(function () {
-      $('[data-toggle="tooltip"]').tooltip ();
-    })
-  </script>
 </body>
 </html>
 
 <!--
 NOTES:
 
-▸ tab-content - a hidden block that only appears on a specific tab
-▸ tab-pane - for tabs
-▸ nav-pills / pill - for button tabs
-▸ fade - for smooth display
-▸ in - for the initial display
+▸ navbar-inverse - black color
+▸ span.icon-bar - horizontal lines for mobile menu
+▸ form-group - for mobile
+▸ form-control - beauty input
 
 -->

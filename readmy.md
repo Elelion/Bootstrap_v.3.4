@@ -21,7 +21,7 @@ Project content:
 `step-12:` ~~Modal Windows~~ <br>
 `step-13:` ~~Creating tabs~~ <br>
 `step-14:` ~~Tooltip~~ <br>
-`step-15:` Creating a website on Bootstrap <br>
+`step-15:` ~~Creating a website on Bootstrap~~ <br>
 `step-16:` Final part <br>
 
 Run the project
